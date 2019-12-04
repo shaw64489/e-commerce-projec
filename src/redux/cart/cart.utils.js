@@ -27,4 +27,4 @@ export const removeItemFromCart = (cartItems, cartItemToRemove) => {
         cartItem => cartItem.id === cartItemToRemove.id
             ? { ...cartItem, quantity: cartItem.quantity - 1 }
             : cartItem)
-}
+};
